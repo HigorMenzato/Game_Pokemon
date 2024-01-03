@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pikachu vs Onix</title>
+    <link rel = "stylesheet" href = "style.css">
+    <link rel = "icon" href = "../imgs/icon_pokeball_removido.png">
+    <script type = "texte/javascript" src="script.js"></script>
+</head>
+<body>
+    <img class = "background_first" src = "../imgs/gba_pokemon.png">
+<div class="game">
+<div class="opponent">
+    <div class="stats">
+
+<!-- Design Pokebolas do computador-->
+    <div class="top">
+        <div class="pokeballs">
+        <div class="pokeball"></div>
+        <div class="pokeball"></div>
+        <div class="pokeball"></div>
+        <div class="pokeball"></div>
+        <div class="pokeball"></div>
+        </div>
+        <!--Vida do pokémon-->
+        <div id = "apHP" class="hp-count">100</div>
+    </div>
+    <!--Nome e vida do pokémon secundário-->
+    <span class="name">
+        Onix
+    </span>
+    <span class="level">
+        100
+    </span>
+    </div>
+    <!--Imagem onix de frente-->
+    <img class="pokemon" src="../imgs/onix_sprite.gif" alt ="A sprite of Onix" id = "photoOnix"/>
+</div>
+<div class="player">
+    <div class="stats">
+
+<!--Design pokebolas player-->
+    <div class="top">
+        <div class="pokeballs">
+        <div class="pokeball"></div>
+        <div class="pokeball"></div>
+        <div class="pokeball"></div>
+        <div class="pokeball"></div>
+        <div class="pokeball"></div>
+        </div>
+
+<!--Vida do Pokemon-->
+        <div id = "myHP" class="hp-count">100</div>
+    </div>
+
+    <!--nome e vida do Pokémon primário-->
+    <span class="name">
+        Pikachu
+    </span>
+    <span class="level">
+        100
+    </span>
+    </div>
+
+    <!--Imagem Pikachu de costas-->
+    <img class="pokemon" src="../imgs/pikachu_backsprite.gif" alt="A gif from Pikachu back sprite" id="photoPika" onclick = "pausarDerrota()"/>
+</div>
+</div>
+
+<div class="box" >
+<div id = "message" class="message" >
+    O que o Pikachu deve fazer?
+</div>
+<!--botões de ataque-->
+<div class="actions">
+    <button onclick = "choqueTrovao()">Choque do Trovão</button>
+    <button onclick = "caudaFerro()">Cauda de Ferro</button>
+    <button onclick = "ataqueRápido()">Ataque Rápido</button>
+    <button onclick = "bolaEletrica()">Bola Elétrica</button>
+</div>
+<!--Botão de continue-->
+<div class = "continue">
+    <button onclick = "compPokemon()">Continue</button>
+</div>
+
+<audio id = "battle" autoplay="true" loop = "true" controls volume="60" style="display: none" >
+    <source src="../imgs/Pokemon Blue_Red - Wild Pokemon Battle.mp3" type="audio/mp3"></source>
+    Seu navegador não suporta o elemento de áudio.
+</audio>
+
+<audio id = "vic" loop = "true" controls volume = "60" style = "display: none;">
+    <source src = "../imgs/Vit.mp3" type="audio/mp3"> </source>
+
+</audio>
+
+<audio id = "der" controls volume = "60" style="display: none;">
+    <source src = "../imgs/DER.mp3" type="audio/mp3"> </source>
+
+</audio>
+
+<script src = "script.js"></script>
+
+</div>
+</body>
+</html>

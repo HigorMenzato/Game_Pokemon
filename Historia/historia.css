@@ -1,0 +1,40 @@
+body{
+    background-color: gray;
+
+}
+
+p{
+    font-family: 'Pokemon Solid', sans-serif;
+    color: rgb(1,2,3);
+    margin: 40px;
+
+}
+
+.container{
+    position: relative;
+    width: 900px;
+    background-color: rgb(220,200,200);
+    height: 1050px;
+    left: 250px;
+    border: solid 7px black;
+    border-radius: 2%;
+    
+
+}
+
+#main-container{
+    position: absolute;
+    background-image: url(../imgs/background_hist.png);
+    background-size: cover ;
+    background-repeat: no-repeat;
+    width: 1500px;
+    height: 1250px;
+    
+    
+}
+
+h1{
+    text-align: center;
+    font-family: 'Pokemon Solid', sans-serif;
+    color: black
+}

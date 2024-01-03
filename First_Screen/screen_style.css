@@ -1,0 +1,129 @@
+body{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+#main-container{
+    position: absolute;
+    margin: 0px;
+    box-sizing: border-box;
+
+
+
+}
+
+button{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 45px;
+    top: 265px;
+    left: 185px;
+    cursor: pointer;
+    font-size: 15pt;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(220,220,220);
+    border: 3px solid rgb(200,0,0);
+    border-radius: 25px;
+    transition-duration: 0,4s;
+    
+}
+
+button:hover{
+    background-color: rgb(247,235,235);
+    color: black;
+
+}
+
+.logo{
+width: 250px;
+height: 250px;
+align-items: center;
+position: absolute;
+object-fit: contain;
+mix-blend-mode: multiply;
+left: 100px;
+
+}
+
+.s-logo{
+width: 250px;
+height: 250px;
+align-items: center;
+position: absolute;
+object-fit: contain;
+mix-blend-mode: multiply;
+left: 100px;
+top: 70px;
+    
+}
+
+/*.info-container{
+    position: relative;
+    width: 0;
+}
+*/
+
+#background{
+    position: absolute;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+}
+
+.f-poke{
+    position: absolute;
+    width: 35px;
+    mix-blend-mode: multiply;
+    top: 475px;
+    left: 150px;
+  
+}
+
+
+.s-poke{
+    position: absolute;
+    width: 35px;
+    mix-blend-mode: multiply;
+    top: 407px;
+    left: 150px;
+}
+
+.t-poke{
+    position: absolute;
+    width: 35px;
+    mix-blend-mode: multiply;
+    top: 330px;
+    left: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*h1{
+    text-align: center;
+    
+    padding: 50px;
+    width: 100vw;
+    height: 120px;
+    margin: -8px;
+    border: 3px solid purple;
+    background: linear-gradient(to right, rgb(255,228,225) 98%, rgb(0,0,128) 2% );
+    color: rgb(75,0,130);
+    border-radius: 2%
+
+    
+
+}
+

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Let's Play? </title>
+    <link rel = "stylesheet" href = "screen_style.css">
+</head>
+<body>
+
+    <!--Imagens do menu principal-->
+<div id = "main-container">
+    <div class = "images">
+        <img src = "../imgs/pikachu-background-img.png" id = "background">    
+        <img class = "logo" src = "../imgs/Pokemon-logo.jpg" >
+        <img class = "s-logo" src = "../imgs/second_logo.png">        
+           
+        <!-- Pokebólas -->
+        <img class = "f-poke" src="../imgs/POKEBALL.png" >
+        <img class = "s-poke" src="../imgs/POKEBALL.png" >
+        <img class = "t-poke" src="../imgs/POKEBALL.png" >
+    </div>
+
+    <div>>
+        <!--Audio do menu-->
+        <audio id="meuAudio" autoplay loop>
+            <source src="../imgs/Pokémon Yellow _ 2 - Title.mp3" type="audio/mp3">
+            Seu navegador não suporta a tag de áudio.
+        </audio>
+    </div>
+    
+
+      <!--Div para botões-->
+    <div class = "container">
+
+        <!--Audio dos botões--> 
+        <audio id="somBotao">
+            <source src="../imgs/button-pressed-38129.mp3" type="audio/mp3">
+        </audio>
+
+        <button id="button"> <a href ="../Main_Game/main.html"> Iniciar </button>
+        <button id="button2"> <a href ="../Historia/historia.html"> História </button>
+        <button id="button3"> <a href ="../Créditos/sobre.html"> Créditos </button>
+
+    </div>
+      
+<script src="screen_script.js"></script>
+
+</div>
+</body>
+</html>
